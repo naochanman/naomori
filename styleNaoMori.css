@@ -23,3 +23,10 @@ body{
     color: blanchedalmond;
     transform: translate(-50%,-50%);
 }
+
+#mori-a{
+    width: 80%;
+    height: 50vh;
+    object-fit: cover;
+    object-position: center;
+ }
