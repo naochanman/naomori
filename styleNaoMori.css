@@ -30,6 +30,25 @@ body{
 }
 
 #mori-a{
-    
-    margin-left: 40vh;
+    margin-top: 10vh;
+    margin-left: 17.8vh;
+    position: relative;
 }
+
+ #mori-a p{
+    font-family: serif;
+     white-space: nowrap;
+     position: absolute;
+     color: white;
+     font-size: 3em;
+     font-weight: bold;
+     top: 50%;
+     left: 45%;
+     -ms-transform: translate(-50%,-50%);
+     -webkit-transform: translate(-50%,-50%);
+     transform: translate(-50%,-50%);
+     margin:0;
+     padding:0;
+ }
+
+
