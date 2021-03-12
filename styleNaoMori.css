@@ -30,12 +30,14 @@ body{
 }
 
 #mori-a{
+    text-align: center;
     margin-top: 10vh;
-    margin-left: 17.8vh;
+    margin-left: 0vh;
     position: relative;
 }
 
  #mori-a p{
+     text-align: center;
     font-family: serif;
      white-space: nowrap;
      position: absolute;
@@ -43,7 +45,7 @@ body{
      font-size: 3em;
      font-weight: bold;
      top: 50%;
-     left: 45%;
+     left: 50%;
      -ms-transform: translate(-50%,-50%);
      -webkit-transform: translate(-50%,-50%);
      transform: translate(-50%,-50%);
@@ -51,4 +53,93 @@ body{
      padding:0;
  }
 
-
+/* ハンバーガーメニュー */
+#nav{
+    white-space: nowrap;
+    position: absolute;
+    top: 0; 
+    left: -15%;
+    width: 15%;
+    height: 100%;
+    background: white;
+    transition: .7s;
+}
+#nav ul{
+    padding-top: 80px;
+}
+#nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+}
+#nav a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    padding: 10px;
+    transition: .5s;
+}
+#nav li a:hover{
+    color: blue;
+    background: lightslategray;
+    border-bottom: none;
+}
+/* 横線 */
+#mori-b{
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+    transition: 1s;
+}
+.line{
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+    border-radius: 4px;
+}
+#line1 {
+    top: 0;
+  }
+  #line2 {
+    top: 10px;
+  }
+  #line3 {
+    bottom: 20px;
+  }
+  .in{
+    transform: translateX(100%);
+  }
+  .line_1,.line_2,.line_3{
+    background: #000000;
+  }
+  .line_1 {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+  .line_2 {
+    opacity: 0;
+  }
+  .line_3 {
+    transform: rotate(45deg);
+    bottom: 0;
+  }
+   
+  #mori-c{
+      text-align: center;
+  }
+  #mori-c b{
+      font-size: 50px;
+      background: linear-gradient(transparent 0, yellow 0);
+  }
+  #mori-c p{
+      font-size: 20px;
+      background: un;
+  }
