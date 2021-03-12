@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>naomoriweb</title>
     <link rel="stylesheet" href="styleNaoMori.css">
+   
 </head>
 <body>
     <!-- header-->
@@ -13,7 +14,23 @@
         <div class="nao-header-text" id="nao-header-id-text">main page</div>
     </div>
     
-    <!-- sideVar -->
+    <!-- ハンバーガーメニュー -->
+
+    　　<!-- ナビメニュー -->
+　<nav id="nav">
+   <ul>
+       <li><a href="#">top</a></li>
+       <li><a href="#">ピックアップ</a></li>
+       <li><a href="#">日記</a></li>
+       <li><a href="#">管理者</a></li>
+　　</ul>
+　</nav>
+　　　<!--　ハンバーガーメニューアイコン -->
+　<div id="mori-b">
+    <span class="line" id=line1></span>
+    <span class="line" id=line2></span>
+    <span class="line" id=line3></span>
+</div>
 
     <!-- 新着ページ-->
     <div class="nao-newpagelist" id="nao-newpagelist-id">
@@ -40,41 +57,16 @@
     </div>
 
     <!-- 1つ記事表示　-->
-    <div class="nao-dispOnearticle" id="nao-dispOnearticle-id">
-        <div class="nao-articleTitle">
-
-        </div>
-        <div class="nao-articlemain">
-
-        </div>
-    </div>
-    <a href="https://twitter.com/intent/tweet?button_hashtag=naomori&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #naomori</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+       <div id="mori-c">
+           <hr>
+        <b>ナオモリとは？</b>
+           <p><img src="hatena.png" alt=""></p>
+           <p>ナオモリとはプログラマーを目指している二人の男の名前を合わせたものであり、この記事では二人の成長過程を日記として記していく。
+           </p>
+         
+           
+       </div>
     <!-- アニメーション画像-->
-    <script src="articles.js"></script>
-    <script type="text/javascript">
-        function readArticles(){
-            console.log("実行");
-
-            var ret;
-            var keys;
-
-            
-
-            
-                /*タイトル抜き出し*/
-                keys = Object.keys(ret);
-                
-                var element = document.getElementById("nao-articleTitle");
-                element.innerHTML = keys[0];
-            
-            
-
-            return ret;
-        }
-
-        readArticles();
-    </script>
-
-   
+    <script type="text/javascript " src="naomori.js"></script>
 </body>
 </html>
