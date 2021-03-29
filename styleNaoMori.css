@@ -99,7 +99,8 @@ body{
 /* 横線 */
 #mori-b{
     display: block;
-    position: absolute;
+    text-align: center;
+    position: fixed;
     top: 15px;
     left: 20px;
     width: 50px;
@@ -108,8 +109,14 @@ body{
     transition: 1s;
     z-index: 101;
 }
+#mori-b span{
+    
+    /* position: absolute;
+    left: 50%;
+    transform: translate(-50%,50%); */
+  
+}
 .line{
-    display: block;
     position: absolute;
     left: 0;
     width: 30px;
@@ -117,7 +124,6 @@ body{
     background-color: white;
     transition: 1s;
     border-radius: 4px;
-    z-index: 101;
 }
 #line1 {
     top: 0;
@@ -132,7 +138,7 @@ body{
     transform: translateX(100%);
   }
   .line_1,.line_2,.line_3{
-    background: #000000;
+    background: white;
   }
   .line_1 {
     transform: rotate(-45deg);
