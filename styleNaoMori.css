@@ -1,8 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    display: inline;
-   
+    display: inline;   
 }
 #basebackground{
     margin: auto;
@@ -19,7 +18,7 @@ body{
     background-color: black;
     width: 100%;
     height: 50px;
-   z-index: 100;
+    z-index: 100;
 }
 #nao-header-id-text{
     text-align: center;
@@ -49,23 +48,22 @@ body{
 #mori-a p{
     text-align: center;
     font-family: serif;
-     white-space: nowrap;
-     position: absolute;
-     color: white;
-     font-size: 3em;
-     font-weight: bold;
-     top: 50%;
-     left: 50%;
-     -ms-transform: translate(-50%,-50%);
-     -webkit-transform: translate(-50%,-50%);
-     transform: translate(-50%,-50%);
-     margin:0;
-     padding:0;
- }
+    white-space: nowrap;
+    position: absolute;
+    color: white;
+    font-size: 3em;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
 
 /* ハンバーガーメニュー */
-#nav{
-    
+#nav{    
     white-space: nowrap;
     position: absolute;
     top: 0; 
@@ -76,6 +74,7 @@ body{
     transition: .7s;
     z-index: 99;
 }
+
 #nav ul{
     padding-top: 80px;
 }
@@ -121,114 +120,109 @@ body{
 }
 #line1 {
     top: 0;
-  }
-  #line2 {
+}
+#line2 {
     top: 10px;
-  }
-  #line3 {
+}
+#line3 {
     bottom: 20px;
-  }
-  .in{
+}
+.in{
     transform: translateX(100%);
-  }
-  .line_1,.line_2,.line_3{
+}
+.line_1,.line_2,.line_3{
     background: #000000;
-  }
-  .line_1 {
+}
+.line_1 {
     transform: rotate(-45deg);
     top: 0;
-  }
-  .line_2 {
+}
+.line_2 {
     opacity: 0;
-  }
-  .line_3 {
+}
+.line_3 {
     transform: rotate(45deg);
     bottom: 0;
-  }
-   
-  #mori-c{
-      text-align: center;
-  }
-  #mori-c b{
-      font-size: 50px;
-      background: linear-gradient(transparent 0, yellow 0);
-  }
-  #mori-c p{
-      font-size: 20px;
-      background: un;
-  }
+}
+#mori-c{
+    text-align: center;
+}
+#mori-c b{
+    font-size: 50px;
+    background: linear-gradient(transparent 0, yellow 0);
+}
+#mori-c p{
+    font-size: 20px;
+    background: un;
+}
 
-  /* ホームメニュー */
-  #home a{
+/* ホームメニュー */
+#home a{
     white-space: nowrap;
     position: absolute;
-      top: 10px;
-      left: 90%;
-  }
-  #home a{
-      color: white;
-  }
+    top: 10px;
+    left: 90%;
+}
+#home a{
+    color: white;
+}
  
-  /* naomori2 */
-  #mori-c{
+/* naomori2 */
+#mori-c{
     display:flex;
     flex-flow: column;
-      
-     
-    }
-    #midasi{
-      margin-left: 5em;
-      margin-right: 5em;
-        border: solid 3px black;
-    }
+}
+#midasi{
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid 3px black;
+}
 #taitole{
     margin-left: 5%;
     float:left;
-
 }
 #hiduke{
     margin-right: 5%;
     float: right;
     animation: fadeIn 2s linear;
-  animation-fill-mode: both;
-
+    animation-fill-mode: both;
 }
 #kiji{
     margin-left: 5em;
     margin-right: 5em;
-      border: solid 3px black;
+    border: solid 3px black;
 }
-   /* naomori3 */
-    #nikki{
-        margin: auto;
-        border:solid 3px black
-    }
-    #rink{
-        margin: auto;
-        border:solid 3px black
+/* naomori3 */
+#nikki{
+    margin: auto;
+    border:solid 3px black
 }
-  #rink h1{
-      margin-left: 5%;
-  }
-    #nikki a{
-        margin-left: 5%;
-        display: block;
+#rink{
+    margin: auto;
+    border:solid 3px black
+}
+#rink h1{
+    margin-left: 5%;
+}
+#nikki a{
+    margin-left: 5%;
+    display: block;
+}
+#kategori{
+    margin: auto;
+    width: 80%;
+    background-color: white;
+}
+/* アニメーション */
+#rink h1{
+    animation: fadeIn 2s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
     }
-    #kategori{
-        margin: auto;
-        width: 80%;
-        background-color: white;
+    100%{
+        opacity: 1;
     }
-    /* アニメーション */
-    #rink h1{
-        animation: fadeIn 2s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
-      }
-    @keyframes fadeIn{
-        0%{
-            opacity: 0;
-        }
-        100%{
-            opacity: 1;
-        }
-    }
+}
   
