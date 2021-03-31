@@ -3,16 +3,35 @@ body{
     padding: 0;
     display: inline;   
 }
-#basebackground{
-    margin: auto;
+#mainblock{
+    display: flex;
+    flex-direction: row;
     margin-top: 50px;
-    width: 80%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#basebackground{
     background-color:whitesmoke;
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 10px;
+    width: 70%;
+    margin: 0;
 }
+
+#sidebox{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-bottom: 10px;
+    height: auto;
+    width: 20%;
+    margin-left: 10px;
+
+}
+
 #nao-header-id{
     position: fixed;
     background-color: black;
@@ -29,20 +48,17 @@ body{
     transform: translate(-50%,-50%);
 }
 #nao-newpagelist-id{
-    margin-top: 60px;
-    margin-left: 10%;
-    margin-right: 10%;
     border: solid;
-}
-
-.newpagelist-title{
-    margin-top: 0%;
 }
 
 #mori-a{
     position: relative;
     text-align: center;
     z-index: 1;
+}
+#firstImg img{
+    width: 100%;
+    object-fit: cover;
 }
 
 #mori-a p{
@@ -51,7 +67,7 @@ body{
     white-space: nowrap;
     position: absolute;
     color: white;
-    font-size: 3em;
+    font-size: 30px;
     font-weight: bold;
     top: 50%;
     left: 50%;
@@ -108,13 +124,7 @@ body{
     transition: 1s;
     z-index: 101;
 }
-#mori-b span{
-    
-    /* position: absolute;
-    left: 50%;
-    transform: translate(-50%,50%); */
-  
-}
+
 .line{
     position: absolute;
     left: 0;
@@ -135,11 +145,11 @@ body{
 }
 .in{
     transform: translateX(100%);
-  }
-  .line_1,.line_2,.line_3{
+}
+.line_1,.line_2,.line_3{
     background: white;
-  }
-  .line_1 {
+}
+.line_1 {
     transform: rotate(-45deg);
     top: 0;
 }
@@ -151,15 +161,18 @@ body{
     bottom: 0;
 }
 #mori-c{
-    text-align: center;
+    text-align: left;
 }
-#mori-c b{
+#mori-c h1{
     font-size: 50px;
     background: linear-gradient(transparent 0, yellow 0);
 }
 #mori-c p{
     font-size: 20px;
-    background: un;
+}
+#hatenaimg{
+    text-align: center;
+    ;
 }
 
 /* ホームメニュー */
