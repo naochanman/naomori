@@ -6,10 +6,6 @@ function hamburger() {
     document.getElementById('nav').classList.toggle('in');
     
   }
-// function foo() {
-//     document.getElementById('line1').style.zIndex=103;
-// }
   document.getElementById('mori-b').addEventListener('click' , function () {
     hamburger();
-    foo();
   } );
