@@ -1,0 +1,256 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: inline;   
+}
+#mainblock{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#basebackground{
+    background-color:whitesmoke;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10px;
+    width: 70%;
+    margin: 0;
+}
+
+#sidebox{
+    background-color: whitesmoke;
+    padding-top: 10px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 10px;
+    height: auto;
+    width: 20%;
+    margin-left: 10px;
+
+}
+
+#nao-header-id{
+    position: fixed;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    z-index: 100;
+}
+#nao-header-id-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: blanchedalmond;
+    transform: translate(-50%,-50%);
+}
+
+#nao-newlist-id{
+    margin-top: 2%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#nao-underline{
+    border-bottom: dotted 2px #87CEFA;
+}
+
+#mori-a{
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+#firstImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#mori-a p{
+    text-align: center;
+    font-family: serif;
+    white-space: nowrap;
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    margin:0;
+    padding:0;
+}
+
+/* ハンバーガーメニュー */
+#navmenu{
+    white-space: nowrap;
+    position: absolute;
+    top: 0; 
+    left: -15%;
+    width: 15%;
+    height: 100%;
+    background: white;
+    transition: .7s;
+    z-index: 99;
+}
+
+#navmenu ul{
+    height: 100%;
+    background: lightslategray;
+    padding-top: 20%;
+    border:solid 1px black
+}
+#navmenu ul li{
+    
+    list-style-type: none;
+    font-size: 20px;
+}
+#navmenu a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 0 0px;
+    padding: 5px;
+    transition: .5s;
+}
+#navmenu li a:hover{
+    color: blue;
+    border-bottom: none;
+}
+/* 横線 */
+#hamburgermenu{
+    display: block;
+    text-align: center;
+    position: fixed;
+    top: 5px;
+    left: 10px;
+    width: 50px;
+    height: 44px;
+    cursor: pointer;
+    transition: 1s;
+    z-index: 101;
+}
+.line{
+    top: 30px;
+    left: 10px;
+    position: absolute;
+    width: 30px; 
+    height: 3px;
+    background-color: white;
+    transition: 1s;
+    border-radius: 4px;
+}
+#line1 {
+    top: 10px;
+  }
+#line2 {
+    top: 20px;
+}
+#line3 {
+    bottom: 20px;
+}
+.in{
+    transform: translateX(100%);
+}
+.line_1,.line_2,.line_3{
+    background: white;
+}
+.line_1 {
+    transform: rotate(-45deg);
+    top: 0;
+}
+.line_2 {
+    opacity: 0;
+}
+.line_3 {
+    transform: rotate(45deg);
+    bottom: 0;
+}
+#overviewtext{
+    display:flex;
+    flex-flow: column;
+}
+#hatenaimg{
+    text-align: center;
+}
+
+/* ホームメニュー */
+#homemenu a{
+    white-space: nowrap;
+    position: absolute;
+    top: 10px;
+    left: 90%;
+    z-index: 101;
+}
+#homemenu a{
+    color: white;
+}
+ 
+/* naomori2 */
+#mori-c{
+    display: flex;
+    flex-flow: column;
+    margin-top: 5%;
+}
+#mori-c h1{
+    font-size: 50px;
+    background: linear-gradient(transparent 0, yellow 0);
+}
+#midasi{
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid 3px black;
+}
+#taitole{
+    margin-left: 5%;
+    float:left;
+}
+#hiduke{
+    margin-right: 5%;
+    float: right;
+    animation: fadeIn 2s linear;
+    animation-fill-mode: both;
+}
+#kiji{
+    margin-left: 5em;
+    margin-right: 5em;
+    border: solid 3px black;
+}
+/* naomori3 */
+#nikki{
+    border:solid 3px black
+}
+#rink{
+    border:solid 3px black
+}
+#rink h1{
+    margin-left: 5%;
+}
+#nikki a{
+    margin-left: 5%;
+    display: block;
+}
+#kategori{
+    background-color: white;
+}
+/* アニメーション */
+#rink h1{
+    animation: fadeIn 2s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
+}
+
+
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+  
