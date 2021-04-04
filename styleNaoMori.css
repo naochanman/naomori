@@ -172,17 +172,9 @@ body{
     transform: rotate(45deg);
     bottom: 0;
 }
-#mori-c{
-    display: flex;
-    text-align: left;
-    margin-top: 60px;
-}
-#mori-c h1{
-    font-size: 50px;
-    background: linear-gradient(transparent 0, yellow 0);
-}
-#mori-c p{
-    font-size: 20px;
+#overviewtext{
+    display:flex;
+    flex-flow: column;
 }
 #hatenaimg{
     text-align: center;
@@ -201,9 +193,17 @@ body{
 }
  
 /* naomori2 */
-#overviewtext{
-    display:flex;
+#mori-c{
+    display: flex;
     flex-flow: column;
+    margin-top: 5%;
+}
+#mori-c h1{
+    font-size: 50px;
+    background: linear-gradient(transparent 0, yellow 0);
+}
+#mori-c p{
+    font-size: 20px;
 }
 #midasi{
     margin-left: 5em;
