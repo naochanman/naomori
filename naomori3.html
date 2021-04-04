@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ja">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,15 +8,16 @@
     <title>Document</title>
     <link rel="stylesheet" href="styleNaoMori.css">
 </head>
+
 <body>
     <!-- header-->
     <div class="nao-header" id="nao-header-id">
-        <div class="nao-header-text" id="nao-header-id-text">naomori.web</div>
+        <div class="nao-header-text" id="nao-header-id-text">main page</div>
     </div>
 
-     <!-- ハンバーガーメニュー -->
-     <!-- ナビメニュー -->
-    <nav id="nav">
+    <!-- ハンバーガーメニュー -->
+    <!-- ナビメニュー -->
+    <nav id="navmenu">
         <ul>
             <li>
                 <a href="#">top</a>
@@ -32,32 +34,64 @@
         </ul>
     </nav>
     <!--　ハンバーガーメニューアイコン -->
-     <div id="mori-b">
+    <div id="hamburgermenu">
         <span class="line" id=line1></span>
         <span class="line" id=line2></span>
         <span class="line" id=line3></span>
     </div>
+
     <!-- ホームメニュー -->
     <div>
-        <nab id="home">
+        <nab id="homemenu">
             <ul>
                 <a href="C:\Users\sho04\sho\naomori\naomori\naomori.html">home</a>
             </ul>
     </div>
-    
-    <!-- メインメニュー -->
-    <div id="kategori">
-        <div id="rink">
-            <h1>カテゴリ</h1>
+
+    <!-- 本体-->
+    <div id="mainblock">
+
+        <!-- このページについて-->
+        <div id="basebackground">
+            <div id="kategori">
+                <div id="rink">
+                    <h1>カテゴリ</h1>
+                </div>
+                <div id="nikki">
+                    <a href="C:\Users\sho04\sho\naomori\naomori\naomori2.html">タイトルー日付</a>
+                    <a href="#">タイトルー日付</a>
+                    <a href="#">タイトルー日付</a>
+                    <a href="#">タイトルー日付</a>
+                </div>
+            </div>
         </div>
-        <div id="nikki">
-            <a href="C:\Users\sho04\sho\naomori\naomori\naomori2.html">タイトルー日付</a>
-            <a href="#">タイトルー日付</a>
-            <a href="#">タイトルー日付</a>
-            <a href="#">タイトルー日付</a>
+
+        <!-- SideBox -->
+        <div id="sidebox">
+            <!-- 新着ページ-->
+            <div class="nao-newpagelist" id="nao-newpagelist-id">
+                <span id="nao-underline">New Articles List</span>
+                <div class="nao-newlist" id="nao-newlist-id">
+                    <ul>
+                        <li>
+                            <a href="#">タイトル1</a>
+                        </li>
+                        <li>
+                            <a href="#">タイトル2</a>
+                        </li>
+                        <li>
+                            <a href="#">タイトル3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-    
+
+
+
+
     <script type="text/javascript " src="naomori.js"></script>
 </body>
+
 </html>
