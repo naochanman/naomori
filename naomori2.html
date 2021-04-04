@@ -12,9 +12,10 @@
     <div class="nao-header" id="nao-header-id">
         <div class="nao-header-text" id="nao-header-id-text">main page</div>
     </div>
+
     <!-- ハンバーガーメニュー -->
     <!-- ナビメニュー -->
-    <nav id="nav">
+    <nav id="navmenu">
         <ul>
             <li>
                 <a href="#">top</a>
@@ -31,7 +32,7 @@
         </ul>
     </nav>
     <!--　ハンバーガーメニューアイコン -->
-    <div id="mori-b">
+    <div id="hamburgermenu">
         <span class="line" id=line1></span>
         <span class="line" id=line2></span>
         <span class="line" id=line3></span>
@@ -39,29 +40,62 @@
 
     <!-- ホームメニュー -->
     <div>
-        <nab id="home">
+        <nab id="homemenu">
             <ul>
                 <a href="C:\Users\sho04\sho\naomori\naomori\naomori.html">home</a>
             </ul>
     </div>
-    <!-- メインメニュー -->
-    <div id="mori-c">
-        <div id="midasi">
-            <!-- 日付 -->
-            <div id="hiduke">
-                <h1>2021/03/20</h1>
-            </div>
-            <!-- タイトル -->
-            <div id="taitole">
-                <h1>コメダ</h1>
+
+    <!-- 本体-->
+    <div id="mainblock">
+
+        <!-- このページについて-->
+        <div id="basebackground">
+            <div id="mori-c">
+                <div id="midasi">
+                    <!-- 日付 -->
+                    <div id="hiduke">
+                        <h1>2021/03/20</h1>
+                    </div>
+                    <!-- タイトル -->
+                    <div id="taitole">
+                        <h1>コメダ</h1>
+                    </div>
+                </div>
+                <!-- 記事 -->
+                <div id="kiji">
+                    <h1>内容</h1>
+                </div>
             </div>
         </div>
-        <!-- 記事 -->
-        <div id="kiji">
-            <h1>内容</h1>
+
+
+        <!-- SideBox -->
+        <div id="sidebox">
+            <!-- 新着ページ-->
+            <div class="nao-newpagelist" id="nao-newpagelist-id">
+                <span id="nao-underline">New Articles List</span>
+                <div class="nao-newlist" id="nao-newlist-id">
+                    <ul>
+                        <li>
+                            <a href="#">タイトル1</a>
+                        </li>
+                        <li>
+                            <a href="#">タイトル2</a>
+                        </li>
+                        <li>
+                            <a href="#">タイトル3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-     
+
+
+
+    <!-- アニメーション画像-->
     <script type="text/javascript " src="naomori.js"></script>
 </body>
+
 </html>

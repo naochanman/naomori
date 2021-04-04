@@ -4,7 +4,7 @@ body{
     display: inline;   
 }
 #mainblock{
-    display: flex;
+    display:flex;
     flex-direction: row;
     margin-top: 80px;
     margin-left: 5%;
@@ -12,7 +12,7 @@ body{
 }
 
 #basebackground{
-    background-color:whitesmoke;
+    background-color:  whitesmoke;
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
@@ -172,18 +172,6 @@ body{
     transform: rotate(45deg);
     bottom: 0;
 }
-#mori-c{
-    display: flex;
-    text-align: left;
-    margin-top: 60px;
-}
-#mori-c h1{
-    font-size: 50px;
-    background: linear-gradient(transparent 0, yellow 0);
-}
-#mori-c p{
-    font-size: 20px;
-}
 #hatenaimg{
     text-align: center;
 }
@@ -201,13 +189,18 @@ body{
 }
  
 /* naomori2 */
-/* #overviewtext{
+#mori-c{
+    margin-top: 5%;
     display:flex;
     flex-flow: column;
-} */
+}
+#mori-c h1{
+    font-size: 50px;
+    background: linear-gradient(transparent 0, yellow 0);
+}
 #midasi{
-    margin-left: 5em;
-    margin-right: 5em;
+    /* margin-left: 5em;
+    margin-right: 5em; */
     border: solid 3px black;
 }
 #taitole{
@@ -221,11 +214,17 @@ body{
     animation-fill-mode: both;
 }
 #kiji{
-    margin-left: 5em;
-    margin-right: 5em;
+    /* margin-left: 5em;
+    margin-right: 5em; */
     border: solid 3px black;
 }
 /* naomori3 */
+#kategori{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    background-color: white;
+}
 #nikki{
     border:solid 3px black
 }
@@ -238,9 +237,6 @@ body{
 #nikki a{
     margin-left: 5%;
     display: block;
-}
-#kategori{
-    background-color: white;
 }
 /* アニメーション */
 #rink h1{
