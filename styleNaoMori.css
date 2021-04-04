@@ -4,15 +4,15 @@ body{
     display: inline;   
 }
 #mainblock{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    margin-top: 80px;
+    margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
 }
 
 #basebackground{
-    background-color:whitesmoke;
+    background-color:  whitesmoke;
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
@@ -25,7 +25,6 @@ body{
     background-color: whitesmoke;
     padding-top: 10px;
     padding-left: 1%;
-    padding-right: 1%;
     padding-bottom: 10px;
     height: auto;
     width: 20%;
@@ -48,16 +47,8 @@ body{
     color: blanchedalmond;
     transform: translate(-50%,-50%);
 }
-
-#nao-newlist-id{
-    margin-top: 2%;
-    background-color: white;
-    border: 2px solid white;
-    border-radius: 10px;
-}
-
-#nao-underline{
-    border-bottom: dotted 2px #87CEFA;
+#nao-newpagelist-id{
+    border: solid;
 }
 
 #mori-a{
@@ -88,7 +79,7 @@ body{
 }
 
 /* ハンバーガーメニュー */
-#navmenu{
+#nav{    
     white-space: nowrap;
     position: absolute;
     top: 0; 
@@ -100,18 +91,18 @@ body{
     z-index: 99;
 }
 
-#navmenu ul{
+#nav ul{
     height: 100%;
     background: lightslategray;
     padding-top: 20%;
     border:solid 1px black
 }
-#navmenu ul li{
+#nav ul li{
     
     list-style-type: none;
     font-size: 20px;
 }
-#navmenu a{
+#nav a{
     display: block;
     text-decoration: none;
     color: black;
@@ -119,12 +110,12 @@ body{
     padding: 5px;
     transition: .5s;
 }
-#navmenu li a:hover{
+#nav li a:hover{
     color: blue;
     border-bottom: none;
 }
 /* 横線 */
-#hamburgermenu{
+#mori-b{
     display: block;
     text-align: center;
     position: fixed;
@@ -149,10 +140,10 @@ body{
 #line1 {
     top: 10px;
   }
-#line2 {
+  #line2 {
     top: 20px;
-}
-#line3 {
+  }
+  #line3 {
     bottom: 20px;
 }
 .in{
@@ -172,39 +163,35 @@ body{
     transform: rotate(45deg);
     bottom: 0;
 }
-#overviewtext{
-    display:flex;
-    flex-flow: column;
-}
+
 #hatenaimg{
     text-align: center;
+    ;
 }
 
 /* ホームメニュー */
-#homemenu a{
+#home a{
+    z-index: 101;
     white-space: nowrap;
     position: absolute;
     top: 10px;
     left: 90%;
-    z-index: 101;
 }
-#homemenu a{
+#home a{
     color: white;
 }
  
 /* naomori2 */
 #mori-c{
-    display: flex;
-    flex-flow: column;
     margin-top: 5%;
+    display:flex;
+    flex-flow: column;
 }
 #mori-c h1{
     font-size: 50px;
     background: linear-gradient(transparent 0, yellow 0);
 }
 #midasi{
-    margin-left: 5em;
-    margin-right: 5em;
     border: solid 3px black;
 }
 #taitole{
@@ -218,15 +205,21 @@ body{
     animation-fill-mode: both;
 }
 #kiji{
-    margin-left: 5em;
-    margin-right: 5em;
     border: solid 3px black;
 }
 /* naomori3 */
+#kategori{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    background-color: white;
+}
 #nikki{
+    margin: auto;
     border:solid 3px black
 }
 #rink{
+    margin: auto;
     border:solid 3px black
 }
 #rink h1{
@@ -235,9 +228,6 @@ body{
 #nikki a{
     margin-left: 5%;
     display: block;
-}
-#kategori{
-    background-color: white;
 }
 /* アニメーション */
 #rink h1{
