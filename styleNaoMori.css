@@ -4,7 +4,7 @@ body{
     display: inline;   
 }
 #mainblock{
-    display: flex;
+    display:flex;
     flex-direction: row;
     margin-top: 50px;
     margin-left: 5%;
@@ -12,7 +12,7 @@ body{
 }
 
 #basebackground{
-    background-color:whitesmoke;
+    background-color:  whitesmoke;
     padding-top: 10px;
     padding-left: 5%;
     padding-right: 5%;
@@ -79,11 +79,7 @@ body{
 }
 
 /* ハンバーガーメニュー */
-<<<<<<< HEAD
 #nav{    
-=======
-#nav{
->>>>>>> mori
     white-space: nowrap;
     position: absolute;
     top: 0; 
@@ -131,10 +127,6 @@ body{
     transition: 1s;
     z-index: 101;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> mori
 .line{
     top: 30px;
     left: 10px;
@@ -146,21 +138,12 @@ body{
     border-radius: 4px;
 }
 #line1 {
-<<<<<<< HEAD
-    top: 0;
-}
-#line2 {
-    top: 10px;
-}
-#line3 {
-=======
     top: 10px;
   }
   #line2 {
     top: 20px;
   }
   #line3 {
->>>>>>> mori
     bottom: 20px;
 }
 .in{
@@ -180,14 +163,11 @@ body{
     transform: rotate(45deg);
     bottom: 0;
 }
-#mori-c{
+#naomoritoha{
     text-align: left;
 }
-#mori-c h1{
-    font-size: 50px;
-    background: linear-gradient(transparent 0, yellow 0);
-}
-#mori-c p{
+
+#naomoritoha p{
     font-size: 20px;
 }
 #hatenaimg{
@@ -197,6 +177,7 @@ body{
 
 /* ホームメニュー */
 #home a{
+    z-index: 101;
     white-space: nowrap;
     position: absolute;
     top: 10px;
@@ -208,12 +189,17 @@ body{
  
 /* naomori2 */
 #mori-c{
+    margin-top: 5%;
     display:flex;
     flex-flow: column;
 }
+#mori-c h1{
+    font-size: 50px;
+    background: linear-gradient(transparent 0, yellow 0);
+}
 #midasi{
-    margin-left: 5em;
-    margin-right: 5em;
+    /* margin-left: 5em;
+    margin-right: 5em; */
     border: solid 3px black;
 }
 #taitole{
@@ -227,11 +213,17 @@ body{
     animation-fill-mode: both;
 }
 #kiji{
-    margin-left: 5em;
-    margin-right: 5em;
+    /* margin-left: 5em;
+    margin-right: 5em; */
     border: solid 3px black;
 }
 /* naomori3 */
+#kategori{
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    background-color: white;
+}
 #nikki{
     margin: auto;
     border:solid 3px black
@@ -246,11 +238,6 @@ body{
 #nikki a{
     margin-left: 5%;
     display: block;
-}
-#kategori{
-    margin: auto;
-    width: 80%;
-    background-color: white;
 }
 /* アニメーション */
 #rink h1{
