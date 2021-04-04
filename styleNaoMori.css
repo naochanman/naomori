@@ -243,6 +243,8 @@ body{
 #rink h1{
     animation: fadeIn 2s cubic-bezier(0.33, 1, 0.68, 1) 1 forwards;
 }
+
+/* ああ */
 @keyframes fadeIn{
     0%{
         opacity: 0;
