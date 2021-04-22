@@ -59,6 +59,19 @@ body{
 #nao-underline{
     border-bottom: dotted 2px #87CEFA;
 }
+#sukuro-rukategori{
+    border-bottom: dotted 2px #87CEFA;
+}
+
+#kategorilist{
+    margin-top: 2%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    height: 20vh;
+    width: 30vh;
+    overflow: auto;
+}
 
 #mori-a{
     position: relative;
@@ -183,7 +196,7 @@ body{
 /* ホームメニュー */
 #homemenu a{
     white-space: nowrap;
-    position: absolute;
+    position: fixed;
     top: 10px;
     left: 90%;
     z-index: 101;
@@ -191,20 +204,17 @@ body{
 #homemenu a{
     color: white;
 }
- 
 /* naomori2 */
 #mori-c{
     display: flex;
     flex-flow: column;
     margin-top: 5%;
 }
-#mori-c h1{
+#mori-c p{
     font-size: 50px;
     background: linear-gradient(transparent 0, yellow 0);
 }
 #midasi{
-    margin-left: 5em;
-    margin-right: 5em;
     border: solid 3px black;
 }
 #taitole{
@@ -218,9 +228,11 @@ body{
     animation-fill-mode: both;
 }
 #kiji{
-    margin-left: 5em;
-    margin-right: 5em;
     border: solid 3px black;
+}
+#kiji p{
+    margin-left: 5%;
+    float:left;
 }
 /* naomori3 */
 #nikki{
